@@ -16,12 +16,11 @@
 </head>
 <body>
 
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="formulario" method="post">
+       <h1 class="title-form">Formulario</h1>
 <?php
        include("validar.php");
 ?>
-
-    <form action="" class="formulario" method="post">
-       <h1 class="title-form">Formulario</h1>
        <label for="" class="title-user">Usuario:</label>
        <input type="text" name="usuario" placeholder="example@gmai.com" class="user"> 
        <label for="" class="title-pass">Password:</label>
