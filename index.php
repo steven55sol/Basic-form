@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="formulario" method="post">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="formulario" method="post">
        <h1 class="title-form">Formulario</h1>
 <?php
        include("validar.php");
